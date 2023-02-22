@@ -1,0 +1,39 @@
+name: random_color_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  solid_lints: ^0.0.14
+ 
+  # Localization
+  easy_localization: ^3.0.1
+
+  # State management
+  flutter_bloc: ^8.1.2  
+
+  # Dependancy injection
+  get_it: ^7.2.0
+  injectable: ^2.1.0
+  
+  freezed_annotation: ^2.2.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  freezed: ^2.2.0
+  build_runner: any
+  injectable_generator: ^2.1.4
+  
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/translations/
