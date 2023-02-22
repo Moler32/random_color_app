@@ -27,10 +27,10 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
-  freezed: ^2.2.0
+ 
   build_runner: any
   injectable_generator: ^2.1.4
+  freezed: ^2.2.0
   
 
 flutter:

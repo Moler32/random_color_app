@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
+///Indicator widget
 class CircularIndicator extends StatelessWidget {
+  ///Indicator widget constructor
   const CircularIndicator({super.key});
 
   @override
